@@ -2,19 +2,15 @@
 
 > **Reporting + production-support case study, working end to end** · Apparel wholesale · Snowflake · Strategy (MicroStrategy) · SQL reconciliation · **Synthetic data only. Not any real retailer's systems or data.**
 
-**▶ 60-second walkthrough (plays automatically)**
+**▶ [Watch the 2-minute demo](docs/demo.mp4)**: real Snowflake and Strategy screens, captioned. It covers the architecture, the live dashboard, a planted defect, the root-cause SQL, the fix and the security check.
 
-![60-second walkthrough](docs/walkthrough.gif)
+[![Demo video](docs/video/frames/scene_10.png)](docs/demo.mp4)
 
 ## How it works
 
 ![Flow](docs/flow.png)
 
 ![Architecture](docs/architecture.png)
-
-![Strategy dashboard running live on Snowflake](docs/screenshots/dashboard_overview.jpg)
-
-![Same dashboard filtered to Bottoms: every number re-queries Snowflake](docs/screenshots/dashboard_filtered_bottoms.jpg)
 
 | Result | Value |
 |---|---|
@@ -129,4 +125,5 @@ SNOWFLAKE_ACCOUNT=<org-account> SNOWFLAKE_USER=<login_name> SNOWFLAKE_PRIVATE_KE
 | `sql/scenario/` | Inject defect → investigate → fix |
 | `mstr/` | Strategy semantic layer spec and validation table |
 | `docs/` | Walkthrough, requirements, design, runbook, test results |
-| `docs/diagrams/` | Sources for the flow, architecture and GIF (`make_walkthrough.py`) |
+| `docs/diagrams/` | Sources for the flow and architecture images |
+| `docs/video/` | Demo screenshots and `make_video.py`, which builds `docs/demo.mp4` |

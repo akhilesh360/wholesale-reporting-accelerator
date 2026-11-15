@@ -104,4 +104,13 @@ Expected values from `sql/tests/dashboard_expected_values.sql` on the clean data
 
 | Check (default prompts) | Expected | Dashboard | Match? |
 |---|---|---|---|
-| Net Sales | 1,
+| Net Sales | 1,045,629.04 | 1,045,629.04 | ✅ |
+| Gross Sales | 1,142,370.00 | 1,142,370 | ✅ |
+| Net Cost | 501,760.40 | 501,760.4 | ✅ |
+| Net Units | 44,463 | | not on dashboard yet |
+| Gross Margin | 543,868.64 | | not shown as total yet |
+| GM % | 52.01% | | not shown as total yet |
+| Net Sales – C002 (Northline) | 145,531.12 | 145,531.12 | ✅ |
+| Net Sales – C007 (Campus Threads) | 165,217.92 | 165,217.92 | ✅ |
+| Latest inventory on hand (2026-07-05) | 121,957 | | |
+| Customer prompt = C002, Date = Mar 2026, Net Sales | 25,507.92 | | |

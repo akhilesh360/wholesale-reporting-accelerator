@@ -2,18 +2,19 @@
 
 > **Reporting + production-support case study, working end to end** · Apparel wholesale · Snowflake · Strategy (MicroStrategy) · SQL reconciliation · **Synthetic data only. Not any real retailer's systems or data.**
 
-![Strategy dashboard running live on Snowflake](docs/screenshots/strategy_overview.jpg)
+**▶ 60-second walkthrough (plays automatically)**
+
+![60-second walkthrough](docs/walkthrough.gif)
 
 ## How it works
 
-```
-Synthetic CSVs ──► Snowflake STG_* ──► DIM_* / FACT_* ──► VW_* reporting views
-                                                             │  read-only service login
-                                                             ▼
-                                         Strategy: attributes · metrics · filters · dashboard
-                                                             │
-                     SQL reconciliation tests ◄──────────────┘  (same totals, to the cent)
-```
+![Flow](docs/flow.png)
+
+![Architecture](docs/architecture.png)
+
+![Strategy dashboard running live on Snowflake](docs/screenshots/dashboard_overview.jpg)
+
+![Same dashboard filtered to Bottoms: every number re-queries Snowflake](docs/screenshots/dashboard_filtered_bottoms.jpg)
 
 | Result | Value |
 |---|---|
@@ -128,3 +129,4 @@ SNOWFLAKE_ACCOUNT=<org-account> SNOWFLAKE_USER=<login_name> SNOWFLAKE_PRIVATE_KE
 | `sql/scenario/` | Inject defect → investigate → fix |
 | `mstr/` | Strategy semantic layer spec and validation table |
 | `docs/` | Walkthrough, requirements, design, runbook, test results |
+| `docs/diagrams/` | Sources for the flow, architecture and GIF (`make_walkthrough.py`) |

@@ -8,3 +8,4 @@ config/snowflake.toml
 docs/diagrams/frames/
 docs/video/frames/*
 !docs/video/frames/scene_10.png
+.pw-profile/

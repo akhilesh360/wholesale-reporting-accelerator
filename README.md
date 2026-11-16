@@ -1,6 +1,5 @@
 # Wholesale Reporting Accelerator: numbers executives can trust, and a fast answer when they don't match
 
-> **Reporting + production-support case study, working end to end** · Apparel wholesale · Snowflake · Strategy (MicroStrategy) · SQL reconciliation · **Synthetic data only. Not any real retailer's systems or data.**
 
 
 https://github.com/user-attachments/assets/b4728bc8-a65a-4510-88a8-bdeb96086dd2

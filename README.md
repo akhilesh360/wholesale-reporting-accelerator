@@ -2,9 +2,14 @@
 
 > **Reporting + production-support case study, working end to end** · Apparel wholesale · Snowflake · Strategy (MicroStrategy) · SQL reconciliation · **Synthetic data only. Not any real retailer's systems or data.**
 
-**▶ [Watch the 2-minute demo](docs/demo.mp4)**: real Snowflake and Strategy screens, captioned. It covers the architecture, the live dashboard, a planted defect, the root-cause SQL, the fix and the security check.
 
-[![Demo video](docs/video/frames/scene_10.png)](docs/demo.mp4)
+https://github.com/user-attachments/assets/b4728bc8-a65a-4510-88a8-bdeb96086dd2
+
+
+
+**▶ 2-minute demo** (real Snowflake and Strategy screens, captioned): architecture, live dashboard, a planted defect, root-cause SQL, the fix and the security check.
+
+
 
 ## How it works
 
